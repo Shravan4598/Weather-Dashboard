@@ -44,23 +44,14 @@ Here’s a preview of the Weather Dashboard Website:
    cd weather-dashboard
    ```
 
-3. **Create and activate a virtual environment** (optional but recommended)
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # or venv\Scripts\activate on Windows
-   ```
 
-4. **Install required dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-5. **Run the application**
+3. **Run the application**
    ```bash
    python app.py
    ```
 
-6. **Open your browser and go to**
+4. **Open your browser and go to**
    ```
    http://127.0.0.1:5000
    ```
@@ -113,4 +104,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Let me know if you're using Flask or any specific framework—I can tailor this even more!
