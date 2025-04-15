@@ -6,7 +6,13 @@
 A dynamic web application that allows users to search and view real-time weather information for any city. The app uses Python on the backend and HTML on the frontend, integrating with the OpenWeatherMap API for live data.
 
 ---
+## 📸 Screenshot
 
+Here’s a preview of the Weather Dashboard Website:
+
+![Weather Dashboard Screenshot](image/weather_dashboard_image.png)
+
+---
 ## 🚀 Features
 
 - 🌍 Search current weather by city name  
