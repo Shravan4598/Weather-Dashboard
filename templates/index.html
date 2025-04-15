@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Dashboard</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f0f8ff;
+        }
+        .container{
+            padding: 20px;
+        }
+        .weather-card{
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 400px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        <form method="POST"><input type="text" name="city" placeholder="Enter City" required>
+            <button type="Submit">Get Weather</button>
+        </form>
+        {% if weather %}
+        <div class="weather-card">
+            <h2>{{weather.city}}</h2>
+            <p><strong>Temperture:</strong>{{weather.temperature}}°C</p>
+            <p><strong>Description:</strong>{{weather.description}}</p>
+            <p><strong>Humidity:</strong>{{weather.humidity}}%</p>
+            <p><strong>Wind Speed:</strong>{{weather.wind_speed}}m/s</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
