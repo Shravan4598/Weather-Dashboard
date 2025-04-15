@@ -26,8 +26,8 @@ Here’s a preview of the Weather Dashboard Website:
 
 ## 🔧 Tech Stack
 
-- **Frontend**: HTML (optionally CSS for styling)  
-- **Backend**: Python (Flask or any framework you used)  
+- **Frontend**: HTML   
+- **Backend**: Python  
 - **API**: [OpenWeatherMap API](https://openweathermap.org/api)
 
 ---
